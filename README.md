@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# PhysioPlay
+
+PhysioPlay is an interactive system designed to make physiotherapy exercises more engaging through gamification. By combining playful real-time movement tracking, it helps users to perform therapeutic movements correctly while having fun.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
