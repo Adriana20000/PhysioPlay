@@ -1,0 +1,140 @@
+.topbar {
+  width: 100%;
+  height: 70px;
+  background-color: #00272B;
+  color: #eee5e9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #00ffcc;
+  box-shadow: 0 0 1vw rgba(0, 255, 204, 0.2);
+  font-family: 'Fredoka', sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.topbar-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topbar-title {
+  font-size: 1.8rem;
+  color: #00ffcc;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  margin-right: 15px;
+}
+
+.topbar-greeting {
+  font-size: 1.3rem;
+  color: #eee5e9;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.profile-button {
+  position: relative;
+}
+
+.profile-icon {
+  width: 42px;
+  height: 42px;
+  background-color: #00ffcc;
+  color: #00272b;
+  border-radius: 50%;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease;
+  box-shadow: 3px 3px 5px #000000;
+}
+
+.profile-icon:hover {
+  background-color: #ff6663;
+  transform: scale(1.1);
+}
+
+.profile-menu {
+  position: absolute;
+  right: -2.5px;
+  top: 50px;
+  background-color: #00272b;
+  border: 2px solid #00ffcc;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 150px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.profile-menu::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 14px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #00ffcc; 
+}
+
+.profile-menu::after {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: 14px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #00272b; 
+}
+
+.profile-menu button {
+  display: flex;
+  background: none;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  border: none;
+  color: #eee5e9;
+  font-size: 1rem;
+  text-align: left;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+
+}
+
+.profile-menu button:hover {
+  background-color: #00ffcc;
+  color: #00272b;
+}
+
+.menu-icon {
+  margin-right: 8px;
+}

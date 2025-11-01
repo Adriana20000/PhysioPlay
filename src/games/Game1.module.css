@@ -1,0 +1,23 @@
+.advice-section {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f8f9ff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.advice-section h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.advice-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.advice-section li {
+  margin-bottom: 8px;
+  color: #444;
+  font-size: 0.95rem;
+}
